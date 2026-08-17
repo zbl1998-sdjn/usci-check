@@ -1,0 +1,17 @@
+{
+  "name": "usci-check",
+  "version": "1.0.0",
+  "description": "Parse and verify China's 18-character Unified Social Credit Code (USCI, GB 32100-2015) offline — with honest output that states what a passing check does NOT prove.",
+  "type": "module",
+  "main": "usci.js",
+  "exports": "./usci.js",
+  "bin": { "usci-check": "./cli.mjs" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["usci", "unified-social-credit-code", "china", "gb-32100", "check-digit", "business-registration", "due-diligence", "统一社会信用代码"],
+  "author": "Currawong Web (https://currawongweb.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/zbl1998-sdjn/usci-check.git" },
+  "engines": { "node": ">=18" }
+}
